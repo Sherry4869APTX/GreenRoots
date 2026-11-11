@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactez Green Roots et participez à nos initiatives écologiques."
+    />
+    <title>Green Roots | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="logo" href="index.html"
+          ><img class="logo-image" src="images/green-roots-logo.png" alt="" />
+          <span>GREEN ROOTS</span></a
+        >
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a><a href="about.html">À propos</a
+          ><a href="projects.html">Nos projets</a
+          ><a class="active" href="contact.html">Contact</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Nous rejoindre <span>↗</span></a>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-grid">
+          <div>
+            <p class="eyebrow">RESTONS EN CONTACT</p>
+            <h1>Chaque engagement <em>commence par un échange.</em></h1>
+            <p>
+              Une question, une idée ou l'envie de devenir bénévole ?
+              Écrivez-nous.
+            </p>
+          </div>
+          <img
+            src="images/Professional Hands Typing on Laptop.png"
+            alt="Espace de travail lumineux avec des plantes"
+          />
+        </div>
+      </section>
+      <section class="section-space">
+        <div class="container contact-grid">
+          <div class="contact-info">
+            <p class="eyebrow">ÉCRIVEZ-NOUS</p>
+            <h2>Parlons de vos <em>idées.</em></h2>
+            <p>
+              Nous serons heureux d'échanger avec vous sur les projets, les
+              partenariats et les possibilités de bénévolat.
+            </p>
+            
+            <div class="contact-detail">
+              <span class="detail-icon">✉</span>
+              <div>
+                <strong>E-mail</strong
+                ><a href="mailto:contact@greenroots.example"
+                  >contact@greenroots.example</a
+                >
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-icon">⌖</span>
+              <div><strong>Localisation</strong><span>Maroc</span></div>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-icon">◷</span>
+              <div>
+                <strong>Disponibilité</strong><span>Du lundi au vendredi</span>
+              </div>
+            </div>
+            <p class="small-note">
+              Les coordonnées ci-dessus sont des exemples à personnaliser pour
+              votre projet.
+            </p>
+          </div>
+         <form
+              class="contact-form"
+              action="https://formspree.io/f/mnpplaqa"
+              method="POST"
+              
+            >
+            <h3>Envoyez-nous un message</h3>
+            <p>Les champs marqués d'un astérisque sont obligatoires.</p>
+            <label for="name">Nom complet *</label
+            ><input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Votre nom"
+              required
+            />
+            <label for="email">Adresse e-mail *</label
+            ><input
+              id="sender-email"
+                type="email"
+                name="Email"
+                placeholder="Enter your email address"
+                required
+            />
+            <label for="subject">Sujet</label
+            ><select id="subject" name="subject">
+              <option value="">Choisissez un sujet</option>
+              <option>Bénévolat</option>
+              <option>Partenariat</option>
+              <option>Question générale</option>
+            </select>
+            <label for="message">Votre message *</label
+            ><textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Écrivez votre message ici..."
+              required
+            ></textarea>
+            <button class="button button-dark" type="submit">
+              Envoyer le message <span>→</span>
+            </button>
+            <p class="form-note">
+              Formulaire de démonstration : l'envoi réel nécessite un service de
+              traitement côté serveur.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div>
+          <a class="logo logo-footer" href="index.html"
+            ><img class="logo-image" src="images/green-roots-logo.png" alt="" />
+            <span>GREEN ROOTS</span></a
+          >
+          <p>Ensemble pour une planète<br />plus vivante et plus durable.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Explorer</h3>
+          <a href="index.html">Accueil</a><a href="about.html">À propos</a
+          ><a href="projects.html">Nos projets</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h3>Nous contacter</h3>
+          <a href="mailto:contact@greenroots.example"
+            >contact@greenroots.example</a
+          ><span>Maroc</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Green Roots — Projet éducatif.</span
+        ><span>Respecter la nature, c'est préserver demain.</span>
+      </div>
+    </footer>
+  </body>
+</html>
